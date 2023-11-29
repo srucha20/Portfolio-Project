@@ -1,0 +1,17 @@
+@import './variables';
+
+
+body{
+    font-family: "Times New Roman", Times, serif !important;
+    background-color: $background-color !important;
+    color: $text-color !important;
+    font-size: 1.2rem !important;
+}
+
+.location-icon{
+    background-image: url('./../assets/images/location.png');
+    display: inline-block;
+    width:   16px;
+    height:  16px;
+    background-repeat: no-repeat;
+}

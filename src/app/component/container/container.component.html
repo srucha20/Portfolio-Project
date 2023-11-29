@@ -1,0 +1,23 @@
+
+  <div class="nav-bar">
+    <ul class="nav justify-content-center">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/professional']" routerLinkActive="active">Professional</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/experience']" routerLinkActive="active">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>

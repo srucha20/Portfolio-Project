@@ -1,0 +1,46 @@
+.container{
+    width: fit-content;
+    padding: 0;
+    margin-top: 5em;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+.flex-row{
+    justify-content: center;
+}   
+.description-container{
+    padding: 25px;
+    padding-right: 0;
+    width: -webkit-fill-available;
+}
+.about-container{
+    padding: 25px;
+    padding-right: 50px;
+}
+
+.container .fade.in {
+    animation-name: fadeIn;
+}
+
+.container .fade.out {
+    animation-name: fadeOut;
+}
+.about-header{
+    background-color: #708090;
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Cursive', Lucida Handwriting;
+}
+.about-footer {
+    background-color: #708090;
+    text-align: center;
+    padding: 1rem;
+}
+.footer-action-btn{
+    border: 1px solid #66CD00;
+    color: blanchedalmond;
+    background: transparent;
+    padding: 0.4em;
+}
+.footer-action-btn:hover{
+    background-color: #66CD00;
+}
