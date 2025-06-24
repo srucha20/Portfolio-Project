@@ -11,6 +11,9 @@ import { ProfileIntroCardComponent } from './component/home/profile-intro-card/p
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { PlatformModule } from '@angular/cdk/platform';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './component/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { SkillsComponent } from './component/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     ContainerComponent,
     ProfileIntroCardComponent,
+    FooterComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +32,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PlatformModule,
     MatProgressBarModule,
     BrowserAnimationsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

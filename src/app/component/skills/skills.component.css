@@ -1,0 +1,19 @@
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tag-cloud span {
+  background: linear-gradient(90deg, #388d66, #78c52b);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.tag-cloud span:hover {
+  transform: scale(1.1);
+}
